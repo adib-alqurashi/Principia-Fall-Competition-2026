@@ -2,13 +2,13 @@
 # Publish this Principia competition project to a public GitHub repository.
 #
 # Usage:   bash publish.sh [repo-name]
-# Default repo name: principia-354674-moving-spikes
+# Default repo name: Principia-Fall-Competition-2026
 #
 # Needs git and the GitHub CLI (gh), logged in. If gh is missing, the script
 # says how to install it and stops without changing anything.
 set -euo pipefail
 
-REPO_NAME="${1:-principia-354674-moving-spikes}"
+REPO_NAME="${1:-Principia-Fall-Competition-2026}"
 DESCRIPTION="Principia Fall Competition 2026 (MATHDB 354674): moving spikes and measure-valued limits of backward recurrences, with an application to backpropagation through ResNets."
 cd "$(dirname "$0")"
 
